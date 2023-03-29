@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 2</title>
+</head>
+
+<body>
+    <!-- Etiqueta de tipo bloque -->
+    <!-- Etiqueta de bloque ocupa el 100% del ancho -->
+    <div>
+        blq
+    </div>
+
+    <!-- Etiqueta de linea -->
+    <!-- Etiqueta de linea ocupa solo espacio de contenido -->
+    <span>
+        Linea
+    </span>
+    <span>
+        Otro span Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore, illo mollitia vitae esse rerum
+        asperiores voluptatibus animi odit reprehenderit assumenda quasi dolore provident eveniet debitis, quod beatae
+        quos deleniti quaerat.
+    </span>
+
+
+    <!-- Tablas -->
+    <table border="1px" id="tabla">
+        <tr> <!-- Table Row - Creamos una fila -->
+            <th>Codigo</th> <!-- Table Head - Escribimos el titulo de la columna-->
+            <th>Nombre</th>
+            <th>Precio</th>
+            <th>Descripcion</th>
+        </tr>
+        <tr>
+            <td>1234</td> <!-- Table Data - Datos de cada columna-->
+            <td>Harina</td>
+            <td>$100</td>
+            <td>De trigo</td>
+        </tr>
+        <tr>
+            <td>5678</td> <!-- Table Data - Datos de cada columna-->
+            <td>Queso</td>
+            <td>$600</td>
+            <td></td>
+        </tr>
+    </table>
+
+    <!-- Para poder relacionar diferentes archivos de nuestro sitio, o ir a un enlace externo tenemos que usar enlaces -->
+    <!-- Tenemos 3 tipos de enlaces -->
+    <!-- Enlace absoluto -->
+    <a href="https://twitter.com" target="_blank">
+        Ir a Twitter
+    </a> <!-- href Hipervinculo de referencia - Ahi pondremos el link al que queremos ir -->
+
+    <!-- Tenemos un atributo para que el link se abra en otra pestaña -->
+    <!-- <a href="https://google.com" target="_blank" >
+        Ir a google en otra pestaña
+    </a> -->
+
+    <!-- Enlace interno -->
+    <a href="#tabla"> <!-- # simbolo para id -->
+        Ir a tabla
+    </a>
+
+    <!-- Enlace Relativos -->
+    <!-- Los enlaces relativos sirven para navegar por los diferentes archivos de nuestro proyecto -->
+    <a href="pages/contacto.html">Ir a contacto</a>
+
+    <!-- Imagenes -->
+    <!-- src - source = La fuente donde se encuentra la imagen - puede ser una fuente externa, o podemos tener la imagen guardada -->
+
+    <!-- Alt es un texto alternativo, que describe lo que hay en la foto. Sirve tambien para la accesibilidad -->
+
+    <!-- <img src="https://pbs.twimg.com/media/FkR1WU4XwAIzZKX.jpg:large" alt="Messi besando la copa del mundo"> -->
+
+    <!-- <img src="" alt="Messi con la copa"> -->
+    <!-- <img src="img/messi-campeon-mundial-qatar-2022_1.jpg_792575817.webp" alt="asdas"> -->
+
+    <!-- Iframe = Incrustar otra pagina html dentro de nuestro sitio.
+    Videos de youtube, mapas de google, spotify, instagram.
+    -->
+    <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/oMpqNQiYfiE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/oHGnxHfQ4IM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+     Maps 
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13105.706665119907!2d-58.33576253623047!3d-34.79520608261565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a32d8dfa747f37%3A0x3cb7f6916bd166e5!2sEl%20Arca%20Futbol%205!5e0!3m2!1ses!2sar!4v1679358670597!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+
+    <!-- Listas -->
+    <!-- Las listas  -->
+    <!-- Listas ordenadas -->
+    <ol> <!-- Ordered List -->
+        <li>Calentar agua</li> <!-- List Item -->
+        <li>Poner yerba</li>
+        <li>Tomar mate</li>
+    </ol>
+
+    <!-- Listas desordenadas -->
+    <ul> <!-- Unordered list -->
+        <li>Contacto</li>
+        <li>Home</li>
+        <li>Galeria</li>
+    </ul>
+
+
+</body>
+
+</html>

@@ -1,0 +1,135 @@
+html {
+    /* 1 rem equivalga a 10px */
+    font-size: 62,5%;
+}
+
+
+/* Sintaxis CSS */
+/* Para darle estilo a un elemento de nuestro html, primero debemos elegirlo */
+
+/* Un tipo selector es: Una etiqueta HTML */
+
+/* h2 {
+    color: red;
+} */
+
+/* p {
+    color: blue;
+} */
+
+/* Otro tipo de selector es por ID */
+
+#parrafo-distinto {
+    color: green;
+}
+
+/* Otro tipo de selector por CLASS = Clase */
+.bg-amarillo {
+    background-color: yellow;
+}
+
+/* Los ID son unicos y no se pueden repetir. Entonces no podemos reutilizar estilos ya escritos */
+
+/* Las CLASS se pueden reutilizar las veces que queramos, ahorrandonos tener que escribir muchas veces el mismo estilo */
+
+/* Los ID los podemos usar para los enlaces internos, y despues con JAVASCRIPT */
+
+/* div h2 {
+    color: black;
+} */
+
+/* HERENCIA */
+div {
+    color: red;
+}
+
+h2 {
+    color: blue;
+}
+
+/* CSS = Hojas de estilo en cascada - JERARQUIAS SEGUN SELECTOR*/
+/* !important */
+
+#button {
+    background-color: pink;
+}
+
+input {
+    background-color: red!important;
+}
+
+.btn {
+    background-color: rgb(54, 205, 54);
+}
+
+input {
+    background-color: blue;
+}
+
+/* Formas de dar color
+Por nombre
+Por RGB
+Por codigo HEXADECIMAL
+*/
+
+
+
+/* Para quitar viñetas de lista hay que elegir la ul */
+ul {
+    list-style: none;
+}
+
+/* Propiedades de texto - fuentes */
+li { 
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    /* Alinear el texto */
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: red;
+}
+
+p {
+    /* background-color: blue; */
+    background-image: url('../img/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Unidades de medidas */
+/* Medidas absolutas PX */
+
+h3 {
+    font-size: 30px;
+}
+
+/* Medidas relativas REM o % */
+
+/* 1 REM equivale a 16px */
+
+h3 {
+    font-size: 1rem;
+}
+
+/* Cuando la pantalla sea menor de 500px:
+html {
+    font-size: 40%
+}
+*/
+
+section {
+    background-color: red;
+}
+
+

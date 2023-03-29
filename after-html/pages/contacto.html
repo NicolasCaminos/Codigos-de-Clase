@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+</head>
+<body>
+    
+    <header>
+        <!-- Nav es para indicar que vamos a incluir un menu de navegacion -->
+        <button>
+            Log in
+        </button>
+        <nav>
+            <!-- Lista no ordenada -->
+            <ul>
+                <!-- Para crear enlaces, usamos la etiqueta a, que debe ir dentro de los li en este caso -->
+                <li>
+                    <!-- Para salir de una carpeta tengo que usar ../ -->
+                    <a href="../index.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="contacto.html">Contacto</a>
+                </li>
+                <li>
+                    <a href="sobre-nosotros.html">Sobre Nosotros</a>
+                </li>
+                <li>
+                    <a href="galeria.html">Galeria</a>
+                </li>
+                <li>
+                    <a href="proyectos.html">Proyectos</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- dentro de main vamos a poner todas las secciones de nuestro html, osea el contenido principal -->
+    <main>
+        <section>
+            <h1>Dejenos su consulta</h1>
+            <!-- Formulario de contacto -->
+            <form>
+                <!-- Label es para indicarle al usuario el dato que debe ingresar -->
+            <div>
+                <label for="">Ingrese su nombre:</label>
+                <!-- Tenemos que agregar el campo en donde se ingrese el dato -->
+                <input type="text">
+            </div>
+
+                <!-- Email -->
+            <div>
+                <label for="">Ingrese su Email:</label>
+                <input type="email" name="" id="">
+            </div>
+
+            <div>
+                <label for="">Deje su mensaje:</label>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+            </div>
+
+            <input type="submit" value="Enviar Formulario">
+
+            <!-- teniamos un boton que no hacia nada sin JS -->
+            <input type="button" value="No hace nada">
+
+            </form>
+            
+        </section>
+    </main>
+
+    <footer>
+        <!-- Si quisiera agrupar una imagen con un texto podria usar un div -->
+        <div>
+            <img src="" alt="">
+            <p>Sebastian Romay</p>
+        </div>
+
+        <!-- Si quiero 3 loguitos de redes juntos -->
+        <ul>
+            <li>Logo red social</li>
+            <li>Logo red social</li>
+            <li>Logo red social</li>
+        </ul>
+        
+    </footer>
+
+</body>
+</html>

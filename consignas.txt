@@ -1,0 +1,17 @@
+5 wireframes de escritorio
+5 wireframes de celular
+
+5 html en total (contando el index).
+Todos deben tener su estructura semantica correcta. 
+deben tener contenido(puede ser lorem). 
+Todos tienen que estar enlazados entre si. 
+Las etiquetas no deben estar en mayusculas. 
+controlar la ruta de los enlaces recordando que ../ es para ir una carpeta atras.
+
+1 css, se debe aplicar estilo solo a 1 html(puede ser el index).
+El estilo no debe ser muy detallado, aplicar las propiedades vistas. 
+linkear correctamente el css. 
+No preocuparse tanto por la parte estetica si no mas bien en aplicar bien las propiedades, 
+Para posicionamiento de elementos vamos a ver mejores formas durante las proximas clases.
+
+Respetar la estructura de carpetas. Dejando solo el index.html suelto en la carpeta raiz.

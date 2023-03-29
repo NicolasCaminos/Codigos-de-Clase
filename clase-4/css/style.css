@@ -1,0 +1,96 @@
+/* Importo fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Roboto:ital,wght@0,400;1,300&display=swap');
+
+@font-face {
+    font-family: 'California Paradise';
+    src: url("../fonts/CaliforniaParadise.otf");
+}
+
+/* Selector universal */ 
+* {
+    margin: 0;
+    padding: 0;
+    /* box sizing = Lo que hace esta propiedad es definir como se calcula el alto y ancho de un elemento */
+    /* Con border box especificamos que las cajas mantengan su alto y su ancho. */
+    box-sizing: border-box;
+}
+
+/* h1 {
+    background-color: red;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    font-family:'California Paradise';
+} */
+
+.caja {
+    /* Usando la propiedad width vamos a dar ancho */
+    width: 400px;
+    /* Usando la propiedad height vamos a dar alto */
+    height: 400px;
+    background-color: blue;
+    /* OVERFLOW */
+    overflow: auto;
+}
+
+/* Content - Contenido de la caja */
+/* Padding - Relleno entre el borde de la caja y el contenido */
+/* Margin - Margenes desde el borde de la caja hacia afuera */
+/* Border - Bordes de la caja */
+
+.caja-2 {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    /* La propiedad para dar bordes a una caja es border */
+    /* Tipo de borde, tamaño del borde y color del borde */
+    border: solid 2px black;
+    /* Para dar margenes vamos a usar margin */
+    /* Primer valor margen arriba y abajo */
+    /* Segundo valor margen izq y der */
+    /* margin: 20px 0; */
+    /* Para dar rellenos a una caja, usamos la propiedad padding */
+    padding: 15px;
+    /* Con la propiedad display vamos a elegir si la caja es de bloque o es de linea */
+    /* A los elementos de linea no se les puede dar ni ancho ni alto. Y los margin y padding solo se aplican a los costados */
+    /* Con display: block; decimos que la caja va a ser de bloque */
+    /* Si queremos esconder un elemento del html, vamos a usar el valor none */
+    display: inline-block;
+
+    /* Usando la propiedad position vamos a poder posicionar nuestros elementos. Al usar position se nos van a habilitar 4 propiedades. */
+    /* Relative = El elemento se va a acomodar de acuerdo al flujo del documento. Va a mantener su espacio en el html y toma como referencia el elemento que tiene arriba */
+    /* Top y left tienen mayor jerarquia sobre right y bottom. Si usamos top y left las demas no van a funcionar */
+
+    /* Position ABSOLUTE */
+    /* Remover el elemento del flujo del documento */
+    position: absolute;
+    top: 20px;
+}
+
+.container {
+    position: relative;
+    width: 600px;
+    height: 600px;
+    background-color: yellow;
+}
+
+.caja-3 {
+    width: 150px;
+    height: 150px;
+    background-color: green;
+    /* Position Sticky */
+    /* Con stikcy vamos a poder elegir a partir de que punto en la pantalla va a quedar fijado. */
+    position: sticky;
+    top: 50px;
+    z-index: 20;
+}
+
+.logo {
+    /* Con position fixed vamos a poder dejar fijado el elemento */
+    /* Position fixed funciona de la misma manera que absolute. */
+    position: fixed;
+    height: 64px;
+    bottom: 0;
+    z-index: 10;
+}
